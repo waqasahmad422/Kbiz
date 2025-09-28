@@ -242,7 +242,7 @@ header {
   border: 2px solid #f84e77;
   transition: all 0.5s ease 0s;
   cursor: pointer;
-}
+} 
 
 .search .them-btn:hover {
   color: #f84e77;
@@ -258,7 +258,7 @@ header {
   width: 100%;
   height: 700px;
   /* padding: 100px; */
-  z-index: 10;
+  z-index: 100;
 }
 .hero-img {
   position: absolute;
@@ -914,7 +914,7 @@ header {
 .FAQs {
   width: 100%;
   padding-bottom: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 10px;
 }
 
@@ -1098,7 +1098,7 @@ header {
   Testimonialssection start Styling
   =============================== --> */
 .testimonials {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 10;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1152,7 +1152,7 @@ header {
   line-height: 18px;
   padding-left: 20px;
 }
- .single-client .client-bottom .client-author-name em {
+.single-client .client-bottom .client-author-name em {
   font-style: normal;
   font-weight: 700;
   color: #0d1e50;
@@ -1164,11 +1164,11 @@ header {
   padding: 0px;
   max-width: 50px;
 }
-.single-client .client-author img{
+.single-client .client-author img {
   width: 100%;
 }
 .single-client:before {
-  content: '';
+  content: "";
   background: url(assets/images/clients/quote.png);
   width: 55px;
   height: 30px;
@@ -1186,45 +1186,43 @@ header {
   opacity: 1;
 }
 
-
 /*===============================
   CTA start Styling
   =============================== --> */
 
-  .cta{
-    z-index: 10;
-    width: 100%;
-    height:65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    background-image: url(./assets/images/cta/cta-bg1.png);
-    background-size: cover;
-    background-position: center;
-  }
-  .cta .back-title{
-    font-size: 45px;
-    font-weight: 700;
-    line-height:70px;
-    color: #ffffff;
-  }
-  .cta .back-btn{
-    background-color: #ffffff;
-    color: #0a1b4c;
-    font-weight: 500;
-  }
-  .cta .back-btn:hover{
-    background-color: #f84e77;
-    color: #ffffff;
-  }
+.cta {
+  z-index: 10;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-image: url(./assets/images/cta/cta-bg1.png);
+  background-size: cover;
+  background-position: center;
+}
+.cta .back-title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #ffffff;
+}
+.cta .back-btn {
+  background-color: #ffffff;
+  color: #0a1b4c;
+  font-weight: 500;
+}
+.cta .back-btn:hover {
+  background-color: #f84e77;
+  color: #ffffff;
+}
 
-
-  /*===============================
+/*===============================
   Footer start Styling
   =============================== --> */
 
-.footer{
+.footer {
   position: sticky;
   bottom: 0;
   z-index: -1;
@@ -1235,7 +1233,7 @@ header {
   padding: 0;
 }
 
- .footer-form {
+.footer-form {
   position: relative;
   max-width: 330px;
   outline: unset;
@@ -1269,7 +1267,7 @@ header {
 
   color: #dee0e4;
 }
- .footer-form .form-button {
+.footer-form .form-button {
   top: 0;
   right: 0;
   background: #f84e77;
@@ -1284,7 +1282,7 @@ header {
 .footer-form .form-button:hover {
   background: #f61d51;
 }
- .footer-menu {
+.footer-menu {
   display: flex;
 }
 .footer-menu ul {
@@ -1315,9 +1313,9 @@ header {
   transform: none;
   width: 0;
   height: 1px;
-  -webkit-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   background-color: #f84e77;
 }
 .footer-menu li a:hover {
@@ -1347,11 +1345,11 @@ header {
   display: inline-block;
   color: #ffffff;
 }
-.footer-logo .logo-text span{
+.footer-logo .logo-text span {
   font-size: 40;
   font-weight: 400;
   line-height: 40px;
-  color: #F84E80;
+  color: #f84e80;
 }
 .footer-widget .footer-subtitle {
   color: #ffffff;
@@ -1380,8 +1378,8 @@ header {
   left: 0;
   margin-left: 0;
   border-radius: 0;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   z-index: 0;
 }
 .footer-widget .footer-address {
@@ -1403,7 +1401,7 @@ header {
 .footer-widget .footer-address li a:hover {
   color: #f84e77;
 }
- .footer-widget .footer-address li:last-child {
+.footer-widget .footer-address li:last-child {
   margin-bottom: 0;
 }
 .footer-widget .footer-address li.back-address svg {
@@ -1446,9 +1444,35 @@ header {
 }
 .copyright p a {
   color: #f84e77;
-  transition: all .7s ease;
+  transition: all 0.7s ease;
   text-decoration: none;
 }
 .copyright p a:hover {
   color: #dee0e4;
+}
+
+/* ===============================
+  Backscrollup section start
+  =============================== */
+#backscrollUp {
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  transition: all 0.5s ease;
+  z-index: 99;
+  cursor: pointer;
+  background: #f84e77;
+  padding: 6px;
+  display: none;
+  border-radius: 50%;
+}
+#backscrollUp span {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  transition: all 0.5s ease;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
 }
